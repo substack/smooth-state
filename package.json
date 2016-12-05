@@ -1,0 +1,30 @@
+{
+  "name": "smooth-state",
+  "version": "1.0.0",
+  "description": "smoothly interpolate state changes over time",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^4.6.2"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "state",
+    "continuous",
+    "animation",
+    "animate",
+    "interpolate",
+    "easing"
+  ],
+  "author": "substack",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substack/smooth-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/smooth-state/issues"
+  },
+  "homepage": "https://github.com/substack/smooth-state#readme"
+}
