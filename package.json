@@ -1,6 +1,6 @@
 {
   "name": "smooth-state",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "smoothly interpolate state changes over time",
   "main": "index.js",
   "devDependencies": {
