@@ -94,6 +94,10 @@ Return the value of `name` at `time`.
 Get the limit of the future value for `name`. This is the same as whichever
 value was last set with `state.set(name)`.
 
+## state.tie(name)
+
+Return a `function (time) {}` that returns the value for `name` given a `time`.
+
 # install
 
 ```
