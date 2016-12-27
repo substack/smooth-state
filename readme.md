@@ -71,6 +71,8 @@ var smooth = require('smooth-state')
 
 Create a new state object `state` given some initial `values`.
 
+Each value can be a number or an array of numbers.
+
 ## state.set(name, update)
 
 Set the future value for the variable `name`:
@@ -78,6 +80,8 @@ Set the future value for the variable `name`:
 * `update.value` - value to set
 * `update.time` - duration of the transition to the future value
 * `update.easing` - optional easing function
+
+Values can be a number or an array of numbers.
 
 Easing functions take a parameter `t` between `0` and `1` and should return
 values between `0` and `1`. You can get easing functions from the [eases][1]
